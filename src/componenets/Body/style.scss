@@ -1,0 +1,80 @@
+.body-component{
+padding:25px;
+.pathnames{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    height: 20;
+    font-size: 13px;
+    color: #2d416f36;
+
+    justify-content: space-between;
+}
+.icon{
+    margin-top: 5px;
+    color: currentColor;
+}
+.box{
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+.topic{
+    font-size: 14px;
+    color: #183067;
+    font-weight: 500;
+}
+.quick-access{
+    // width: 100%;
+    height: 50px;
+    background-color: #F6F7F9;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.input-hold{
+    display: flex;
+    width: 250px;
+    align-items: center;
+// background-color: red;
+    height: 38px;
+
+    border-radius: 5px;
+    // padding: 5px;
+
+    input{
+        border: 0;
+        outline: none;
+        height: 20px;
+        margin-left: 4px;
+        margin-top: 2px;
+        padding: 10px;
+        background-color: white;
+        ::placeholder {
+          font-size: 12px;
+          }
+          
+}
+.icon{
+    background-color: #4BAA79;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    align-items: center;
+    width: 130px;
+}}
+.filter{
+width: 50px;
+margin-left: 10px;
+
+img{
+    width: 100%;
+}
+}
+}

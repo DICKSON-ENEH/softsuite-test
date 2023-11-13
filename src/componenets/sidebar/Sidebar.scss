@@ -1,0 +1,221 @@
+
+
+.sidebar {
+  background-color: #fff;
+  color: #2D416F;
+  width: 20%;
+  height: 100%;
+  overflow: scroll;
+  // position: fixed;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  
+  &::-webkit-scrollbar {
+    width: 0; 
+    background: transparent; 
+  }
+  .logo {
+    width: 140px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .line-divider{
+    background-color: #333 !important;
+  }
+
+  .nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 10px;
+
+        .icon {
+          margin-right: 10px;
+          margin-top: 5px;
+          transition: color 0.3s;
+        }
+
+        .sub-nav {
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          justify-content: space-between;
+          height: 100%;
+        color:currentColor;
+        font-weight: 500;
+          font-size: 12px;
+          margin-top: 20px;
+          transition: height 0.5s ease; 
+          &.payroll-activities {
+          
+            background-color: #F6F7F9;
+         padding: 10px;
+          
+          }
+        }
+      }
+    }
+    .nav-items{
+      cursor: pointer;
+      padding: 5px;
+      width: 200px;
+      height: 30px;
+      font-size: 12px;
+      display: flex;
+      // flex-direction: column;
+      align-items: center;
+      // position: relative;
+      transition: background-color 0.3s;
+    }
+    .sub-label{
+
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 3px;
+    }
+
+    .nav-item {
+      cursor: pointer;
+      padding: 5px;
+      width: 200px;
+      height: 30px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #4baa791d;
+        color: #2D416F;
+        font-weight: 500;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+
+        .icon {
+          color: #2D416F;
+        }
+      }
+
+      &.active {
+        background-color: #4BAA79;
+        color: #fff;
+        font-weight: 500;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+
+        .icon {
+          color: #fff;
+        }
+      }
+
+      .arrow-icon {
+        transition: transform 0.3s ease;
+        margin-left: 50px;
+      }
+
+      .rotated {
+        transform: rotate(180deg);
+      }
+    }
+
+    .nav-item.active .sub-nav {
+      height: 60px; // Adjust the height based on your content
+    }
+  }
+
+
+
+
+
+
+  .second-nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 10px;
+
+        .icon {
+          margin-right: 10px;
+          margin-top: 5px;
+          transition: color 0.3s;
+        }
+
+        .sub-nav {
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          justify-content: space-between;
+          height: 150px; 
+         background-color: #F6F7F9;
+         padding: 10px;
+          font-size: 12px;
+          width: 150px;
+          margin-top: 20px;
+          transition: height 0.5s ease; 
+        }
+      }
+    }
+
+    .nav-item {
+      cursor: pointer;
+      padding: 5px;
+      width: 200px;
+      height: 30px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #4baa791d;
+        color: #2D416F;
+        font-weight: 500;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+
+        .icon {
+          color: #2D416F;
+        }
+      }
+
+      &.active {
+        background-color: #4BAA79;
+        color: #fff;
+        font-weight: 500;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+
+        .icon {
+          color: #fff;
+        }
+      }
+
+      .arrow-icon {
+        transition: transform 0.3s ease;
+        margin-left: 50px;
+      }
+
+      .rotated {
+        transform: rotate(180deg);
+      }
+    }
+
+    .nav-item.active .sub-nav {
+      height: 60px; 
+    }
+  }
+ 
+}
